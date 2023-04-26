@@ -2,7 +2,7 @@
 layout: post
 title:  "Rails activerecord after_create vs after_create_commit"
 date:   2023-04-26 14:59:44 +0545
-categories: Rails, Ruby
+categories: Rails
 ---
 #### Background  
 I was working on a chat application. Pusher was used as a real-time communication layer between the server and the client. Here the pusher event was triggered after creating a message. Which is simple and it works perfectly.
