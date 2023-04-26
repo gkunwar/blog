@@ -3,7 +3,7 @@ layout: post
 title:  ".gitignore is not working?"
 date:   2023-04-20 18:59:44 +0545
 categories: git
-tags: git, github, gitlab
+tags: git github gitlab
 ---
 
 While working in a team, I always find complain about git from my team members(specially from new developer):
