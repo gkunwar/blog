@@ -50,3 +50,15 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# footer link
+footer_links:
+  - title: Twitter
+    url: https://twitter.com/gkunwar1
+    icon: fab fa-twitter-square
+  - title: GitHub
+    url: https://github.com/gkunwar
+    icon: fab fa-github-square
+
+# copyright
+copyright: "© @2023 Ganesh Kunwar"
