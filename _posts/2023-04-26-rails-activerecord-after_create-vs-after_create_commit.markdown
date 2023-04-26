@@ -42,13 +42,7 @@ Your code doesn't execute until after the outermost transaction has been committ
 Your `create/save` may still be rolled back at the time `after_save/create` executes, and (by default) it won't be accessible to other database connections, file upload (such as a background process like sidekiq). Using `after_create_commit` is typically driven by one of these two factors in some combination.
 
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
 #### References
 <https://pusher.com/ >  
 <https://guides.rubyonrails.org/active_storage_overview.html#downloading-files>  
 <https://stackoverflow.com/questions/33890458/difference-between-after-create-after-save-and-after-commit-in-rails-callbacks>
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
