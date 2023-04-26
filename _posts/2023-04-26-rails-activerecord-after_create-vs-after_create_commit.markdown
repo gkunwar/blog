@@ -18,7 +18,7 @@ end
 
 {% endhighlight %}
 
-This works only for text messages. I have noticed an issue when sending a photo message. While sending a photo message, what I noticed is, a message is appearing to the receiver chat box with empty attachment. After debugging I found something is wrong with the after_create ActiveRecord callback used. Since I was using ActiveStorage, I started to search if there is any callback concept in ActiveStorage which triggers after upload attachment. Unfortunately, there is no such callback concept in ActiveStorage. While looking the RailsGuide I found something interesting
+This works only for text messages. I have noticed an issue when sending a photo message. While sending a photo message, sent message is appearing to the receiver chat box with empty attachment. After debugging I found something is wrong with the `after_create` ActiveRecord callback used. Since I was using ActiveStorage, I started to search if there is any callback in ActiveStorage which triggers after upload attachment. Unfortunately, there is no such callback concept in ActiveStorage. While looking the RailsGuide I found something interesting
 
 
 It's important to know that the file is not yet available in the `after_create` callback but in the `after_create_commit` only.
