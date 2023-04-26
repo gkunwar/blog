@@ -8,7 +8,8 @@ tags: git, github, gitlab
 
 While working in a team, I always find complain about git from my team members(specially from new developer):
 
-"I just added a file to .gitignore but the changes from those files also appears when I see the changes with command: git diff”
+	"I just added a file to .gitignore but the changes from those files also appears when 
+	I still see the changes with command: git diff”
 
 I think this is not only my co-worker problem. Most new developers face this problem. So I thought to write a few notes on this topic.
 
