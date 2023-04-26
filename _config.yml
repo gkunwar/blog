@@ -51,6 +51,10 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+# disqus for comment
+disqus:
+  shortname: ganeshkunwar-com-np
+
 # footer link
 footer_links:
   - title: Twitter
@@ -62,3 +66,4 @@ footer_links:
 
 # copyright
 copyright: "© @2023 Ganesh Kunwar"
+
