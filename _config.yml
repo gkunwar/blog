@@ -64,6 +64,9 @@ footer_links:
     url: https://github.com/gkunwar
     icon: fab fa-github-square
 
+# Google Analytics
+google_analytics: UA-111642699
+
 # copyright
 copyright: "© @2023 Ganesh Kunwar"
 
