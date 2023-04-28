@@ -1,18 +1,32 @@
 ---
-layout: page
-title: About
+layout: post
 permalink: /about/
 ---
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+{% highlight ruby %}
+class Ganesh
+  def initialize
+    @name = "Ganesh Kuwnar"
+    @address = {
+      country = "Nepal",
+      city = "Kathmandu"
+    }
+    @skills = ['Product Concept Design', 'Product Development', 'Product Scaling']
+    @code = {
+      backend = ['Ruby', 'PHP', 'Elixir', 'Rust'],
+      frontend = ['ReactJS', 'VueJS'],
+      database = ['MySQL', 'PostgreSQL', 'MongoDB'],
+      cloud = ['AWS', 'Linode']
+    },
+    @contact = {
+      Email = 'gkunwar09@gmail.com',
+      Phone = '9801190557'
+    },
+    @social_media = {
+      twitter = '@gkunwar1',
+      linkedin = 'https://www.linkedin.com/in/gkunwar1/',
+      github = 'gkunwar'
+    },
+    @education = ['BE', 'MBA']
+  end
+end
+{% endhighlight %}
