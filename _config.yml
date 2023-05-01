@@ -51,6 +51,11 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+# sitemap
+url: "https://ganesh.codes" # the base hostname & protocol for your site
+plugins:
+  - jekyll-sitemap
+
 # disqus for comment
 disqus:
   shortname: ganeshkunwar-com-np
