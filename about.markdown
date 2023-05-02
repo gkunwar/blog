@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /about/
+comments: false
 ---
 {% highlight ruby %}
 class Ganesh
