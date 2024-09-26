@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Optimizing API Calls: A Quick Fix for Faster Websites"
-date:   2024-09-26 14:59:44 +0545
+date:   2024-09-26 13:00:44 +0545
 categories: Rails, Nextjs
 share: true
 ---
