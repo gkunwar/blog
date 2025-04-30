@@ -39,6 +39,6 @@ When approvals, reviews, or checks are buried under layers of process, teams end
 A high-performing team isn’t the one with the most sophisticated stack. It’s the one that removes friction, eliminates distractions, and keeps shipping value consistently.
 
 So, take a moment and ask your team:\
- Is the process helping us move faster—or slowing us down?\
+ Is the process helping team move faster—or slowing down?\
  If it's the latter, it might be time to simplify.
 
