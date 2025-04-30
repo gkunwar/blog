@@ -19,13 +19,13 @@ They prioritize clear and conscious requirements. No vague tickets or shifting e
 2. A Simple, Custom Dev Process:
 They don’t follow processes blindly. They build their own, based on what actually works for them. It’s streamlined, minimal, and constantly evolving based on real feedback. Let them create their own process and team agreement.
 3. Automation Over Manual Overhead:
-Smart teams let machines handle the routine. Examples include:
-- CI/CD pipelines to automate testing and deployment, so they don’t waste time to run automated tests and deploy it to multiple environments.
-- PR notifications so they don’t waste time checking statuses manually.
-- Automated release notes generated from Git commits. Writing the same thing again and again is a boring job. If every git commit is written properly, it helps to create release notes.
-- Integrated linters and formatters to catch issues before they’re reviewed. They don’t need to look after such small things.
+Smart teams let machines handle the repetitive task. Examples include:
+- ***CI/CD pipelines to automate testing and deployment***, so they don’t waste time to run automated tests and deploy it to multiple environments.
+- ***PR notifications setup to any communication channel*** like Slack, Basecamp so they don’t waste time checking statuses manually.
+- ***Automated release notes generated from Git commits.*** Writing the same thing again and again is a boring job. If every git commit is written properly, it helps to create release notes.
+- ***Integrated linters and formatters*** to catch issues before they’re reviewed. They don’t need to look after such small things.
 
-By automating what doesn’t require human judgment, they stay focused on what does—writing great code and delivering value.
+By automating what doesn’t require human judgment, development team stay focused on what does—writing great code and delivering value.
 
 **Why You Shouldn’t Over-Engineer Your Process**\
 While it might seem helpful to add new tools and layers of tracking, too much process quickly becomes counterproductive.
