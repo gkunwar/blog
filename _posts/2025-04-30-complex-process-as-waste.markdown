@@ -19,11 +19,11 @@ They prioritize clear and conscious requirements. No vague tickets or shifting e
 2. A Simple, Custom Dev Process:
 They don’t follow processes blindly. They build their own, based on what actually works for them. It’s streamlined, minimal, and constantly evolving based on real feedback. Let them create their own process and team agreement.
 3. Automation Over Manual Overhead:
-Smart teams let machines handle the repetitive task. Examples include:
+Smart teams don't want to spend their time to handle repetitive task, they let machines handle the repetitive task. Here are few examples:
 - ***CI/CD pipelines to automate testing and deployment***, so they don’t waste time to run automated tests and deploy it to multiple environments.
-- ***PR notifications setup to any communication channel*** like Slack, Basecamp so they don’t waste time checking statuses manually.
+- ***Pull Request notifications setup to any communication channel*** like Slack, Basecamp so they don’t waste time checking statuses of PR they created manually.
 - ***Automated release notes generated from Git commits.*** Writing the same thing again and again is a boring job. If every git commit is written properly, it helps to create release notes.
-- ***Integrated linters and formatters*** to catch issues before they’re reviewed. They don’t need to look after such small things.
+- ***Integrated linters and formatters*** to catch issues before they’re reviewed. It saves time of both PR reviewer and creator.
 
 By automating what doesn’t require human judgment, development team stay focused on what does—writing great code and delivering value.
 
