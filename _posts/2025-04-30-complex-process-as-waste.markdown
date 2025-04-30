@@ -2,8 +2,8 @@
 layout: post
 title:  "Is Your Process Adding Value or Creating Waste?"
 date:   2025-04-30 10:40:44 +0545
-categories: dev 
-tags: process team
+categories: software-waste 
+tags: software process dev team
 share: true
 ---
 
