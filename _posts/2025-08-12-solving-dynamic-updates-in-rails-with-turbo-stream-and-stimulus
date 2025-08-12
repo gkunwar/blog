@@ -7,10 +7,6 @@ tags: rails turbo stimilus
 share: true
 ---
 
-Here’s the updated blog post with a **before and after** section to make it more engaging and story-driven:
-
----
-
 ## Solving Dynamic Updates in Rails with Turbo Stream and Stimulus
 
 Recently, I ran into a situation in a Rails project where I needed to update part of a page dynamically when a user selected a new shipping address. The requirement was simple on paper:
@@ -105,9 +101,3 @@ This approach gives:
 * **Instant UI updates** without relying on form submissions or page reloads.
 
 Turbo and Stimulus together are powerful, but sometimes you need to step in and handle the request manually — and that’s exactly what solved this problem.
-
----
-
-If you want, I can also add a **short Rails controller snippet** for the `/orders/shipping_cost` action so readers can see the complete loop from Stimulus → Rails → Turbo Stream. That would make the blog post feel complete for developers following along.
-
-Do you want me to include that?
